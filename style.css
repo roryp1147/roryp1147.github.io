@@ -32,3 +32,4 @@ section h2{font-size:1.25rem;margin:32px 0 10px}ul.list,ol.list{padding-left:20p
 code{background:var(--bg2);border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:.88em}
 footer{border-top:1px solid var(--line);color:var(--mute);font-size:.85rem;padding:28px 0}footer p{margin:4px 0}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.gallery.wide{grid-template-columns:1fr 1fr}.gallery.wide img:first-child{grid-column:1/-1}@media(max-width:600px){.gallery.wide{grid-template-columns:1fr}}
